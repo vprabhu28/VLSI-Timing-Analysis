@@ -1,0 +1,97 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1160x600+20+31
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /home/vprabhu/hspiceTut/Elmore.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 232x242+640+360
+pf:read PF:1 v(10) v(4) v(7)
+# WF:1:1 WF:1:2 WF:1:3
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3} -region {new new new} -yview {real(y) real(y) real(y)} -xview {real(x) real(x) real(x)} -tracehi {2 2 2}
+# Signal0 Signal1 Signal2
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0 {{(1) Elmore.tr0}}
+wm geometry .sigmgr._PF:1 232x242+0+0
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x242+640+360
+wm geometry .sigmgr._PF:1 232x242+0+0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1160x600+0+0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1160x600+20+31
+Mdi:ArrangeIcons
+wm geometry . 1160x600+0+0
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x242+640+360
+wm geometry .sigmgr._PF:1 232x242+0+0
+wm geometry .sigmgr._PF:1 232x242+640+360
+ScopeSigMgr:Unload 0 {{(1) Elmore.tr0}}
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1160x600+20+31
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1160x600+0+0
+Mdi:ArrangeIcons
+wm geometry . 1160x600+20+31
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons

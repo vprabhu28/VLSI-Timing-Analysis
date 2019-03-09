@@ -1,0 +1,24 @@
+* "simulator" "HSPICE" 
+* "version" "L-2016.06-SP2-2 linux64"
+* "format" "HSP"
+* "rundate" "23:24:17 02/10/2019 "
+* "netlist" "Elmore.sp "
+* "runtitle" "*this file will describe the hspice of the given problem"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 1 =   0.            
++ 2 =   0.            
++ 3 =   0.            
++ 4 =   0.            
++ 5 =   0.            
++ 6 =   0.            
++ 7 =   0.            
++ 8 =   0.            
++ 9 =   0.            
++ 10 =   0.            
++ vs =   0.            
+***   END: Saved Operating Point ***                     

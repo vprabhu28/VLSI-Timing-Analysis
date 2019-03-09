@@ -1,0 +1,1111 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1160x600+20+31
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /home/vprabhu/hspiceTut/Elmore.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 232x242+640+360
+pf:read PF:1 v(10) v(4) v(7)
+# WF:1:1 WF:1:2 WF:1:3
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3} -region {new new new} -yview {real(y) real(y) real(y)} -xview {real(x) real(x) real(x)} -tracehi {2 2 2}
+# Signal0 Signal1 Signal2
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:Unload 0 {{(1) Elmore.tr0}}
+wm geometry .sigmgr._PF:1 232x242+0+0
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x242+640+360
+wm geometry .sigmgr._PF:1 232x242+0+0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1280x628+0+23
+Mdi:ArrangeIcons
+Mdi:Resize 654 498
+Mdi:Move 5 5
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Statistics Graph0 Signal2 Mean {} {} xyrangeAll
+# M:0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Statistics Graph0 Signal1 Mean {} {} xyrangeAll
+# M:1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Statistics Graph0 Signal0 Mean {} {} xyrangeAll
+# M:2
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:AtX Graph0 Signal0 {} xyrangeAll
+# M:3
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:AtX Graph0 Signal2 {} xyrangeAll
+# M:4
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:AtX Graph0 Signal1 {} xyrangeAll
+# M:5
+Graph:DSel
+GrMeas:Select Graph0 M:4 0 1
+GrMeas:MovePoint Graph0 M:4 0 6.9014461226346n 2.0133640169781
+GrMeas:MovePoint Graph0 M:4 0 6.8061240165985n 1.9564854636418
+GrMeas:MovePoint Graph0 M:4 0 6.8769037802939n 1.9987196392374
+Graph:DSel
+GrMeas:Select Graph0 M:5 0 1
+GrMeas:MoveText Graph0 M:5 0 32 46
+Graph:DSel
+Graph:DSel
+GrMeas:Select Graph0 M:5 0 1
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:AtX Graph0 Signal1 {} xyrangeAll
+# M:6
+Graph:DSel
+GrMeas:Select Graph0 M:6 0 1
+GrMeas:MoveText Graph0 M:6 0 32 37
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+GrMeas:Select Graph0 M:6 0 1
+GrMeas:MoveText Graph0 M:6 0 -45 41
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:6 0 1
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:AtX Graph0 Signal1 {} xyrangeAll
+# M:7
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+GrMeas:Select Graph0 M:7 0 1
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:3 0 1
+GrMeas:MovePoint Graph0 M:3 0 19.105280471117n 2.0093145337923
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:PointMarker Graph0 Signal1 {} Signal
+# M:8
+Graph:DSel
+GrMeas:Select Graph0 M:8 0 1
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:PointMarker Graph0 Signal1 {} Signal
+# M:9
+Graph:DSel
+GrMeas:Select Graph0 M:9 0 1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:MoveText Graph0 M:9 0 30 30
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal1 add
+# Signal1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal1 add
+# Signal1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:PointMarker Graph0 Signal1 {} Signal
+# M:10
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:10 0 1
+GrMeas:MoveText Graph0 M:10 0 34 51
+Graph:DSel
+Graph axisconfig AxisY(1,0) -range {6.1 1.9 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:10 0 1
+GrMeas:MovePoint Graph0 M:10 0 9.5737065766586n 2.7875411592716
+Graph:DSel
+Graph axisconfig AxisY(1,0) -range {4.0 -0.2 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:10 0 1
+GrMeas:MovePoint Graph0 M:10 0 7.7761774591775n 2.020637286705
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:Resize 1242 498
+Mdi:Move 5 5
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:3 0 1
+GrMeas:MovePoint Graph0 M:3 0 19.031897617856n 1.9999595559946
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect AxisX(0) add
+# AxisX(0)
+Graph:DSel
+GrMeas:Select Graph0 M:10 0 1
+GrMeas:MovePoint Graph0 M:10 0 7.7689294507614n 2.0166396136773
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:4 0 1
+GrMeas:MovePoint Graph0 M:4 0 6.9125116794141n 2.0199668176048
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1280x628+0+0
+Mdi:ArrangeIcons
+wm geometry . 1280x628+0+23
+Mdi:ArrangeIcons
+wm geometry . 1280x628+0+0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1280x628+0+23
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1280x628+0+0
+Mdi:ArrangeIcons
+wm geometry . 1280x628+0+23
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:10 0 1
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0)} -range {{1.9 -2.3 exact} {1.9000000190374 -2.2999999809626 exact} {1.9000000190374 -2.2999999809626 exact}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:MovePoint Graph0 M:10 0 5.5533776508882n 0.27682207735475
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisY(1,0) -range {4.0000000190374 -0.1999999809626 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisX(0)} -range {{-0.914 0.472 } {1.1860000190374 2.5720000190374 } {-0.9139999809626 0.4720000190374 } {33n 66n }}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig AxisX(0) -range {10n 50n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {-10n 30n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {10n 50n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisY(0,0) -range {1.25 -0.25 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisY(0,0) -range {2.0 0.5 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {-10n 30n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0)} -range {{1.25 -0.25 exact} {2.0000000090654 9.0654141970958n exact} {-0.24999999320094 -1.7499999932009 exact}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisY(0,0) -range {2.0 0.5 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:3 0 1
+GrMeas:MovePoint Graph0 M:3 0 13.340582059103n 1.1261917208729
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{1.6310846048687 0.7744030037487} {11.6654n 14.825n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{1.5157461804171 0.76512992038817} {13.1385467n 13.521099364n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:3 0 1
+GrMeas:MovePoint Graph0 M:3 0 13.407541037038n 1.1377195352957
+Graph axisconfig AxisX(0) -range {13.35n 13.85n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:MovePoint Graph0 M:3 0 13.599637283847n 1.170791274931
+Graph axisconfig AxisX(0) -range {13.6n 14.1n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:MovePoint Graph0 M:3 0 13.997943733379n 1.239364645899
+Graph axisconfig AxisX(0) -range {13.85n 14.35n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {14.1n 14.6n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig AxisY(0,0) -range {2.1 1.1 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {13.85n 14.35n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:3 0 1
+GrMeas:MovePoint Graph0 M:3 0 14.290820288677n 1.2897869594165
+Graph axisconfig AxisX(0) -range {14.1n 14.6n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {14.35n 14.85n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {14.1n 14.6n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:MovePoint Graph0 M:3 0 14.526944813171n 1.3304387104284
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0)} -range {{2.6 1.6 exact} {3.0 0.99999999999999 exact} {0.49999999999998 -0.99999999999998 exact}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisY(0,0) -range {2.1 1.1 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisY(0,0) -range {1.6 0.6 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:MovePoint Graph0 M:3 0 14.550035838898n 1.3344141154841
+Graph axisconfig AxisX(0) -range {14.35n 14.85n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:MovePoint Graph0 M:3 0 14.656219277977n 1.3526949049795
+Graph:DSel
+Graph axisconfig AxisY(1,0) -range {2.0 -15.099033134902f exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisY(1,0) -range {3.0 0.99999999999999 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisY(1,0) -range {4.0 2.0 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {14.1n 14.6n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {13.85n 14.35n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {13.6n 14.1n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {13.35n 13.85n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {13.1n 13.6n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {12.85n 13.35n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {12.6n 13.1n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {12.35n 12.85n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {12.1n 12.6n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {11.85n 12.35n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {11.6n 12.1n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {11.35n 11.85n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {11.1n 11.6n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {10.85n 11.35n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {10.6n 11.1n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {10.35n 10.85n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {10.1n 10.6n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {9.85n 10.35n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {9.6n 10.1n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {9.35n 9.85n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {9.1n 9.6n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {8.85n 9.35n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {8.6n 9.1n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {8.35n 8.85n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {8.1n 8.6n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisY(1,0) -range {3.0 1.0 exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {7.85n 8.35n exact}
+Graph axisconfig AxisX(0) -range {7.6n 8.1n exact}
+Graph axisconfig AxisX(0) -range {7.35n 7.85n exact}
+Graph axisconfig AxisX(0) -range {7.1n 7.6n exact}
+Graph axisconfig AxisX(0) -range {6.85n 7.35n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {6.6n 7.1n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {6.35n 6.85n exact}
+Graph axisconfig AxisX(0) -range {6.1n 6.6n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {5.85n 6.35n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {5.6n 6.1n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {5.85n 6.35n exact}
+Graph axisconfig AxisX(0) -range {6.1n 6.6n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {6.35n 6.85n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {6.6n 7.1n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {6.85n 7.35n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {7.1n 7.6n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {7.35n 7.85n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:1 0
+Graph axisconfig AxisX(0) -range {7.1n 7.6n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisX(0)} -range {{0.1 2.1 } {0.0 4.0 } {-1.75 1.25 } {6.85n 7.85n }}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisX(0)} -range {{-1.5 4.5 } {-2.4 6.4 } {-4.0 4.0 } {6.125n 8.625n }}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisX(0)} -range {{-6.0 10.0 } {-10.0 14.0 } {-8.8 8.8 } {4.5n 10.5n }}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisX(0)} -range {{-20.5 21.5 } {-27.25 35.75 } {-20.0 20.0 } {500p 14.5n }}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:10 0 1
+GrMeas:MoveText Graph0 M:10 0 49 69
+GrMeas:MovePoint Graph0 M:10 0 7.607728582836n 1.9277285191056
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(1,0) AxisX(0)} -range {{18.667513642224 -21.220306577424} {7.09112n 9.41438n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:10 0 1
+GrMeas:MovePoint Graph0 M:10 0 7.7218914385748n 1.9906955774949
+GrMeas:MoveText Graph0 M:10 0 33 48
+GrMeas:MovePoint Graph0 M:10 0 7.5692574098863n 1.9065095632768
+Graph:DSel
+Graph:DSel
+Graph axisconfig {AxisY(1,0) AxisX(0)} -range {{12.559714922474 -15.543067505005} {7.4837041337n 7.8975811816n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:10 0 1
+GrMeas:MovePoint Graph0 M:10 0 7.5698049860981n 1.9068115815044
+Graph:DSel
+Graph axisconfig AxisX(0) -range {7.15n 7.65n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisX(0)} -range {{-80.0 80.0 } {-40.0 40.0 } {-44.0 44.0 } {6.9n 7.9n }}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisX(0)} -range {{-200.0 200.0 } {-88.0 88.0 } {-120.0 120.0 } {6.125n 8.625n }}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisX(0)} -range {{-440.0 440.0 } {-200.0 200.0 } {-400.0 400.0 } {4.5n 10.5n }}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisX(0)} -range {{-1200.0 1200.0 } {-440.0 440.0 } {-880.0 880.0 } {500p 14.5n }}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:4 0 1
+GrMeas:MovePoint Graph0 M:4 0 6.8350795369449n 1.9737631779058
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(2,0) AxisX(0)} -range {{642.8328177621 -988.94164576892} {5.71759n 8.65313n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:4 0 1
+Graph axisconfig AxisX(0) -range {7.25n 10.75n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {5.5n 9n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {3.75n 7.25n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {2n 5.5n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {250p 3.75n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {-1.5n 2n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {-3.25n 250p exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {-5n -1.5n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {-6.75n -3.25n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig AxisX(0) -range {-8.5n -5n exact}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisX(0)} -range {{-4000.0 4000.0 } {-1200.0 1200.0 } {-2000.0 2000.0 } {-10.25n -3.25n }}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisX(0)} -range {{-8800.0 8800.0 } {-4000.0 4000.0 } {-4400.0 4400.0 } {-15n 1n }}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisX(0)} -range {{-20000.0 20000.0 } {-8800.0 8800.0 } {-12000.0 12000.0 } {-32.5n 17.5n }}
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisX(0)} -range {{-44000.0 44000.0 } {-20000.0 20000.0 } {-40000.0 40000.0 } {-70n 50n }}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisX(0)} -range {{-120000.0 120000.0 } {-44000.0 44000.0 } {-88000.0 88000.0 } {-150n 150n }}
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisX(0)} -range {{-400000.0 400000.0 } {-120000.0 120000.0 } {-200000.0 200000.0 } {-400n 400n }}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisX(0)} -range {{-880000.0 880000.0 } {-400000.0 400000.0 } {-440000.0 440000.0 } {-1.2u 1.2u }}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisX(0)} -range {{-2meg 2meg } {-880000.0 880000.0 } {-1.2meg 1.2meg } {-3u 3u }}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisX(0)} -range {{-4.4meg 4.4meg } {-2meg 2meg } {-4meg 4meg } {-6u 6u }}
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisX(0)} -range {{-12meg 12meg } {-4.4meg 4.4meg } {-8.8meg 8.8meg } {-12u 12u }}
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisX(0)} -range {{-40meg 40meg } {-12meg 12meg } {-20meg 20meg } {-30u 30u }}
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisX(0)} -range {{-88meg 88meg } {-40meg 40meg } {-44meg 44meg } {-60u 60u }}
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisX(0)} -range {{-200meg 200meg } {-88meg 88meg } {-120meg 120meg } {-120u 120u }}
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisX(0)} -range {{-440meg 440meg } {-200meg 200meg } {-400meg 400meg } {-300u 300u }}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0)} -range {all all all all} -zoomed {0 0 0 0}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(2,0) AxisX(0)} -range {{3.0595752298885 1.5746604680752} {4.85295n 9.77888n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(2,0) AxisX(0)} -range {{2.4851845485245 1.5605123525236} {6.7213039103n 7.0715924921n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:4 0 1
+GrMeas:MovePoint Graph0 M:4 0 6.8350498297223n 1.9737454516234
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x242+640+360
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x242+0+0
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x242+640+360
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0)} -range {all all all all} -zoomed {0 0 0 0}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1280x628+0+0
+Mdi:ArrangeIcons
+wm geometry . 1280x628+0+23
+Mdi:ArrangeIcons
+wm geometry . 1280x628+0+0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1280x628+0+23
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1280x628+0+0
+Mdi:ArrangeIcons
+wm geometry . 1280x628+0+23
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1280x628+0+0
+Mdi:ArrangeIcons
+wm geometry . 1280x628+0+23
+Mdi:ArrangeIcons
+wm geometry . 1280x628+0+0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1280x628+0+23
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1280x628+0+0
+Mdi:ArrangeIcons
+wm geometry . 1280x628+0+23
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
