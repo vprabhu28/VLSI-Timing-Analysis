@@ -53,7 +53,7 @@ The responses on the MATLAB were found improving at each approximation at 4th or
 
 <img src="Moment Matching/Images/Fourth.PNG" width="400" >
 
-#### Note: A complete detailed report and all the codes and steps have been attached in the folder 'Moment Matching'
+#### Note: A complete detailed report, HSPICE codes and steps have been attached in the folder 'Moment Matching'
 
 ---
 
@@ -103,7 +103,9 @@ d. At Fan-out points, we need to choose the optimum design option from the avail
  
  𝑇ℎ𝑒𝑛,(𝐿1,𝑇1) 𝑖𝑠 𝑟𝑒𝑑𝑢𝑛𝑑𝑎𝑛𝑡. 
  
-f. When buffer is inserted, we use different set of formulas to calculate the time. When we insert buffer, L = Cbuff Tbuff = Tmin – Rbuff * L  
+f. When buffer is inserted, we use different set of formulas to calculate the time. 
+
+When we insert buffer, L = Cbuff Tbuff = Tmin – Rbuff * L  
  
 Using these steps mentioned above, the calculations can be done to determine the various design options and buffer insertion points. 
 
@@ -120,7 +122,7 @@ The image to the right is after insertion and left is before insertion.
 
 As we can see, with buffer, the response is much linear and the time of arrival is less than that was required.
 
-#### Note: A complete detailed report and all the codes and steps have been attached in the folder 'Buffer Insertion'
+#### Note: A complete detailed report, HSPICE codes and steps have been attached in the folder 'Buffer Insertion'
 
 ---
 
