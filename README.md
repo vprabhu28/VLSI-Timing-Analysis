@@ -53,6 +53,8 @@ The responses on the MATLAB were found improving at each approximation at 4th or
 
 <img src="Moment Matching/Images/Fourth.PNG" width="400" >
 
+#### Note: A complete detailed report and all the codes and steps have been attached in the folder 'Moment Matching'
+
 ---
 
 ## Buffer insertion for reducing the delay
@@ -65,6 +67,8 @@ For the below diagram of network with several different nodes, we must insert bu
 
 
 <img src="Buffer Insertion/Images/Capture.PNG" width="600" >
+
+<img src="Buffer Insertion/Images/Capturse.PNG" width="600" >
 
 ---
 
@@ -102,3 +106,21 @@ d. At Fan-out points, we need to choose the optimum design option from the avail
 f. When buffer is inserted, we use different set of formulas to calculate the time. When we insert buffer, L = Cbuff Tbuff = Tmin – Rbuff * L  
  
 Using these steps mentioned above, the calculations can be done to determine the various design options and buffer insertion points. 
+
+---
+
+### Result
+
+The below image shows the responses before and after buffer insertion. 
+
+The image to the right is after insertion and left is before insertion.
+
+
+<img src="Buffer Insertion/Images/Result.PNG" width="600" >
+
+As we can see, with buffer, the response is much linear and the time of arrival is less than that was required.
+
+#### Note: A complete detailed report and all the codes and steps have been attached in the folder 'Buffer Insertion'
+
+---
+
