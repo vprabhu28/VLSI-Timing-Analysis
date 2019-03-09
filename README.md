@@ -36,16 +36,21 @@ NOTE: B is shown as 'a' in the above image
 ### Result
 
 The responses on the MATLAB were found improving at each approximation at 4th order. The various order comparisons shown below,
+
 1st Approximation
-<img src="Moment Matching/Images/First" width="400" >
+
+<img src="Moment Matching/Images/First.PNG" width="400" >
 
 2nd Approximation
+
 <img src="Moment Matching/Images/Sec.PNG" width="400" >
 
 3rd Approximation
+
 <img src="Moment Matching/Images/Third.PNG" width="400" >
 
 4th Approximation
+
 <img src="Moment Matching/Images/Fourth.PNG" width="400" >
 
 ---
