@@ -126,3 +126,18 @@ As we can see, with buffer, the response is much linear and the time of arrival 
 
 ---
 
+## Lagrangian relaxation to optimize timing and area
+
+This part of the completed based on the research paper on Langrangian relaxation. The main idea behind this is that each component 
+or wire can be viewed as a RC connection. Then we calculate Elmore delay to determine the propogation delay. The critical path is 
+determined and the gate/wire resizing is done to achieve minimum propogational delay while having an optimim area.
+
+
+### Requirement
+
+
+The requirements for this part of the project are specified as shown,
+<img src="Lagrangian Relaxation/Requirements.png" width="600" >
+
+
+
