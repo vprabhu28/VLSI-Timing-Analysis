@@ -137,7 +137,34 @@ determined and the gate/wire resizing is done to achieve minimum propogational d
 
 
 The requirements for this part of the project are specified as shown,
-<img src="Lagrangian Relaxation/Requirements.png" width="600" >
+<img src="Lagrangian relaxation/Requirements.png" width="600" >
 
+The circuit was described as a HSPICE code. Along with the resistance and capacitance of individual components.
 
+------
+### Approach
 
+First we need to implement the HSPICE code on paper to obtain a complete circuit. Then subsititute the componets by thier RC
+equivalents to start analyzing using Elmore technique.
+
+Ciruit is as shown below
+
+<img src="Lagrangian relaxation/Circuit.png" width="600" >
+
+Principle of replacing the components by thier RC equivalents
+
+<img src="Lagrangian relaxation/Principle.png" width="600" >
+
+Now, using Elmore delay at different stages the final propogational delay at the primary output was determined.
+The critical path was identified as shown,
+
+<img src="Lagrangian relaxation/CriticalPath.png" width="600" >
+
+-----
+
+### Result
+
+The intial delay at primary output node 27 and 28 was 125ns and 145ns respectively. By resizing the gates along the critical path,
+we achieved an optimal small delay of 95ns and 63ns at the primary outputs. The area was also optimised using the timing as a constraint.
+The complete report along with the EXCEL sheet used for calculationa and the research paper based of which this lab was performed
+are attached to the folder "Lagrangian relaxation". 
